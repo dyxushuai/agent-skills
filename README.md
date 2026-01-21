@@ -1,10 +1,6 @@
-# Agent Init Skills
+# Agent Skills
 
-A small set of skills for initializing and maintaining AGENTS.md files.
-Designed to replace ad hoc "init" prompts with a consistent, repo-aware workflow.
-
-Reference (best practices + starter template):
-https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/#starter-template
+A growing set of skills for consistent, repo-aware agent workflows.
 
 Skills follow the Agent Skills specification: https://agentskills.io
 
@@ -13,6 +9,10 @@ Skills follow the Agent Skills specification: https://agentskills.io
 ### agent-init
 
 Create or improve AGENTS.md files that define how coding agents operate in a repo.
+Designed to replace ad hoc "init" prompts with a consistent, repo-aware workflow.
+
+Reference (best practices + starter template):
+https://github.blog/ai-and-ml/github-copilot/how-to-write-a-great-agents-md-lessons-from-over-2500-repositories/#starter-template
 
 Use when:
 - Setting up an initial AGENTS.md
