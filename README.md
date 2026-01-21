@@ -55,15 +55,16 @@ Skills are available once installed. The agent will use them when the request ma
 
 ```
 $agent-init
-Create an AGENTS.md for this repo. Include exact build/test/lint commands and boundaries.
+Create AGENTS.md with exact build/test/lint commands and boundaries.
 ```
 
 ### Claude example
 
 ```
 /agent-init
-Create an AGENTS.md for this repo. Keep it short and command-first.
-Also create CLAUDE.md as a symlink to AGENTS.md (required for Claude Code).
+Create AGENTS.md with exact build/test/lint commands and boundaries.
+Keep it short and command-first.
+Create CLAUDE.md as a symlink to AGENTS.md.
 ```
 
 ### Other prompts
