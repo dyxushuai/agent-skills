@@ -63,7 +63,6 @@ Create AGENTS.md with exact build/test/lint commands and boundaries.
 ```
 /agent-init
 Create AGENTS.md with exact build/test/lint commands and boundaries.
-Keep it short and command-first.
 Create CLAUDE.md as a symlink to AGENTS.md.
 ```
 
