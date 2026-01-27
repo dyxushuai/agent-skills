@@ -1,4 +1,4 @@
-# Agents.md Brainstorming Guide
+# AGENTS.md Brainstorming Guide
 
 Use this when requirements are fuzzy and you need a divergent Q&A to discover gaps.
 
@@ -17,6 +17,7 @@ Use this when requirements are fuzzy and you need a divergent Q&A to discover ga
 - Multiple roles: keep one `AGENTS.md` with role-specific subsections.
 - If multiple agents are in scope, confirm expectations but keep a single AGENTS.md unless asked otherwise.
 - If Claude Code is in scope, add a CLAUDE.md symlink to AGENTS.md.
+- If GitHub Copilot coding agent is in scope, add `.github/copilot-instructions.md` (ideally pointing to AGENTS.md as the source of truth).
 - If the repo already has a convention, follow it.
 
 ## Divergent option sets (pick 2-3 to propose)
@@ -24,10 +25,10 @@ Use this when requirements are fuzzy and you need a divergent Q&A to discover ga
 - Structure options (divergent; confirm before writing files):
   1. Root AGENTS.md only (minimal, single-agent friendly).
   2. Root AGENTS.md + CLAUDE.md symlink (Claude Code).
-  3. Root AGENTS.md + .github/agents/codex.md (Codex-specific guidance).
-  4. Root AGENTS.md + .github/agents/{codex,claude}.md (multi-agent split).
-  5. .github/agents/ only (teams that require that path).
-  6. Root AGENTS.md + docs/agents/ (long-term documentation).
+  3. Root AGENTS.md + `.github/copilot-instructions.md` (GitHub Copilot coding agent).
+  4. Root AGENTS.md + CLAUDE.md symlink + `.github/copilot-instructions.md` (multi-agent).
+  5. Root AGENTS.md + docs/agents/ (long-term documentation; confirm duplication is acceptable).
+  6. Other tool-specific files (ask for exact file + path).
 - Placement:
   - A) Root `AGENTS.md` (default).
   - B) `docs/AGENTS.md`.

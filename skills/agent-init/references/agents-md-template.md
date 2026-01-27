@@ -1,10 +1,10 @@
-# Agents.md Template
+# AGENTS.md Template
 
 Use the template below. Keep sections short and command-focused. Replace placeholders with repo-specific details.
 
 ## Template: Repo-wide AGENTS.md
 
-```markdown
+````markdown
 # AGENTS.md
 
 ## Purpose and scope
@@ -54,7 +54,7 @@ export async function fetchUserById(id: string): Promise<User> {
 - Always:
 - Ask first:
 - Never:
-```
+````
 
 ## Claude Code requirement
 
@@ -64,7 +64,19 @@ If Claude Code is in scope, create a CLAUDE.md symlink to AGENTS.md:
 ln -s AGENTS.md CLAUDE.md
 ```
 
+If `CLAUDE.md` already exists, ask before replacing it.
+
 If symlinks are not supported in the environment, ask before copying.
+
+## GitHub Copilot coding agent requirement (optional)
+
+If GitHub Copilot coding agent is in scope, add `.github/copilot-instructions.md`. Keep it short and point to `AGENTS.md` as the source of truth:
+
+```markdown
+# .github/copilot-instructions.md
+
+Follow `AGENTS.md` in the repository root. If anything is unclear or risky, ask before proceeding.
+```
 
 ## Quick prompt to generate a new AGENTS.md
 

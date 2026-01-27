@@ -1,4 +1,4 @@
-# Agents.md Review Checklist
+# AGENTS.md Review Checklist
 
 Use this checklist to audit an existing AGENTS.md file.
 
@@ -18,12 +18,12 @@ Use this checklist to audit an existing AGENTS.md file.
 
 ## Six core areas
 
-- [ ] Commands
-- [ ] Testing
-- [ ] Project structure
-- [ ] Code style
-- [ ] Git workflow
-- [ ] Boundaries
+- [ ] Purpose and scope
+- [ ] Repo map and code organization
+- [ ] Run/test/validate commands
+- [ ] Change management
+- [ ] Dependencies and environment
+- [ ] Boundaries and avoid list
 
 ## Boundaries and safety
 

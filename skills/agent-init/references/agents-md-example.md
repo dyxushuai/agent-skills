@@ -2,7 +2,7 @@
 
 This example follows the "commands first" guidance, includes a real code snippet, explicit tech stack with versions, and clear boundaries.
 
-```markdown
+````markdown
 # AGENTS.md
 
 ## Purpose and scope
@@ -56,7 +56,7 @@ export async function getUserProfile(id: string): Promise<UserProfile> {
 - Always: run tests for changed areas, update docs if behavior changes
 - Ask first: schema changes, dependency additions, CI config changes
 - Never: commit secrets, edit `node_modules/`, disable tests
-```
+````
 
 If Claude Code is in scope, create a CLAUDE.md symlink to AGENTS.md:
 
@@ -65,3 +65,5 @@ ln -s AGENTS.md CLAUDE.md
 ```
 
 If symlinks are not supported in the environment, ask before copying.
+
+If GitHub Copilot coding agent is in scope, add `.github/copilot-instructions.md` and keep it minimal (ideally pointing to `AGENTS.md` as the source of truth).
